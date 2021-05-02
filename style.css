@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    animation: drop 3s ease;
+    margin: 0px 0px 0px 180px;
+}
+
+audio {
+    width: 250px;
+    height: 20px;
+}
+
+.rear {
+    background: black;
+    width: 10vh;
+    height: 10vh;
+    margin: 29.8px 0px 0px 30px;
+    position: absolute;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.middle {
+    background: black;
+    width: 15vh;
+    height: 15vh;
+    position: absolute;
+    margin:18px 0px 0px 53px; 
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.front {
+    background: black;
+    width: 10vh;
+    height: 10vh;
+    margin: 29.8px 0px 0px 88px;
+    position: absolute;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.rwheel {
+    background: cyan;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 20px;
+    margin: 45px 0px 0px 30px;
+    position: absolute;
+}
+
+.fwheel {
+    background: cyan;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 20px;
+    margin: 45px 0px 0px 88px;
+    position: absolute;
+}
+
+@keyframes drop {
+    0% {
+        opacity: 0;
+        transform: translateX(-250px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
