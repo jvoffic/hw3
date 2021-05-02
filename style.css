@@ -5,18 +5,13 @@
 
 main {
     animation: drop 3s ease;
-    margin: 0px 0px 0px 180px;
-}
-
-audio {
-    width: 250px;
-    height: 20px;
+    margin: 0px 0px 0px 150px;
 }
 
 .rear {
     background: black;
-    width: 10vh;
-    height: 10vh;
+    width: 23px;
+    height: 24px;
     margin: 29.8px 0px 0px 30px;
     position: absolute;
     border-top-left-radius: 5px;
@@ -25,8 +20,8 @@ audio {
 
 .middle {
     background: black;
-    width: 15vh;
-    height: 15vh;
+    width: 35px;
+    height: 35px;
     position: absolute;
     margin:18px 0px 0px 53px; 
     border-top-right-radius: 3px;
@@ -35,8 +30,8 @@ audio {
 
 .front {
     background: black;
-    width: 10vh;
-    height: 10vh;
+    width: 23px;
+    height: 24px;
     margin: 29.8px 0px 0px 88px;
     position: absolute;
     border-bottom-right-radius: 5px;
@@ -45,19 +40,19 @@ audio {
 
 .rwheel {
     background: cyan;
-    width: 10vh;
-    height: 10vh;
+    width: 23px;
+    height: 23px;
     border-radius: 20px;
-    margin: 45px 0px 0px 30px;
+    margin: 45px 0px 0px 31px;
     position: absolute;
 }
 
 .fwheel {
     background: cyan;
-    width: 10vh;
-    height: 10vh;
+    width: 23px;
+    height: 23px;
     border-radius: 20px;
-    margin: 45px 0px 0px 88px;
+    margin: 45px 0px 0px 87px;
     position: absolute;
 }
 
